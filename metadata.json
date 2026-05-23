@@ -1,0 +1,6 @@
+{
+  "name": "Dark Card Portfolio",
+  "description": "An interactive, elegant portfolio website featuring a sleek high-contrast dark card aesthetic with immersive layout animations and hover insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
