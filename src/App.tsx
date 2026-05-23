@@ -26,6 +26,13 @@ import ExperienceTab from './components/ExperienceTab';
 import SkillsTab from './components/SkillsTab';
 import ContactTab from './components/ContactTab';
 import DarkParticleEffects from './components/DarkParticleEffects';
+import jokerImage from './assets/images/joker_batman_1779433400114.png';
+import darkAnimeImage from './assets/images/dark_anime_love_1779435344913.png';
+import userPortraitImage from './assets/images/user_portrait_1779432560781.png';
+import madaraImage from './assets/images/madara_susanoo_1779435610767.png';
+import userImgImage from './assets/images/user-img.png';
+import gambitImage from './assets/images/gambit_xmen_card_1779433658726.png';
+
 
 type PlayingCardId = 'joker' | 'spade' | 'love' | 'king';
 
@@ -370,7 +377,7 @@ export default function App() {
           
           {/* Base Casino Image */}
           <img
-            src="/src/assets/images/four_kings_deck_1779542876898.png"
+            src=""
             alt="The Prestige Lounge Casino"
             referrerPolicy="no-referrer"
             className={`absolute inset-0 w-full h-full object-cover brightness-75 contrast-110 saturate-[0.85] transition-all duration-1000 ease-in-out ${
@@ -380,7 +387,7 @@ export default function App() {
 
           {/* Joker Card Image */}
           <img
-            src="/src/assets/images/joker_batman_1779433400114.png"
+            src={jokerImage}
             alt="Joker Card Illustration"
             referrerPolicy="no-referrer"
             className={`absolute inset-0 w-full h-full object-cover brightness-95 saturate-100 transition-all duration-1000 ease-in-out ${
@@ -390,7 +397,7 @@ export default function App() {
 
           {/* Spade Card Image */}
           <img
-            src="/src/assets/images/gambit_xmen_card_1779433658726.png"
+            src={gambitImage}
             alt="Gambit Ace of Spades"
             referrerPolicy="no-referrer"
             className={`absolute inset-0 w-full h-full object-cover brightness-95 saturate-100 transition-all duration-1000 ease-in-out ${
@@ -400,7 +407,7 @@ export default function App() {
 
           {/* Heart Card Image */}
           <img
-            src="/src/assets/images/dark_anime_love_1779435344913.png"
+            src={darkAnimeImage }
             alt="Dark Theme Love Character"
             referrerPolicy="no-referrer"
             className={`absolute inset-0 w-full h-full object-cover brightness-95 saturate-100 transition-all duration-1000 ease-in-out ${
@@ -410,7 +417,7 @@ export default function App() {
 
           {/* King Card Image */}
           <img
-            src="src\assets\images\user-img.png"
+            src={userImgImage}
             alt="King Chukwuebuka"
             referrerPolicy="no-referrer"
             className={`absolute inset-0 w-full h-full object-cover brightness-95 contrast-105 transition-all duration-1000 ease-in-out ${
@@ -735,7 +742,7 @@ export default function App() {
                             className="absolute inset-0 rounded-xl overflow-hidden border border-amber-500/30 shadow-lg shadow-amber-500/5 bg-gray-950 flex flex-col justify-between"
                           >
                             <img
-                              src="/src/assets/images/madara_susanoo_1779435610767.png"
+                              src={madaraImage}
                               alt="Madara Susanoo Illustration"
                               referrerPolicy="no-referrer"
                               className="w-full h-full object-cover brightness-95 saturate-100"
@@ -757,7 +764,7 @@ export default function App() {
                             className="absolute inset-0 rounded-xl overflow-hidden border border-amber-500/40 shadow-xl shadow-amber-500/10 bg-gray-950 flex flex-col justify-between"
                           >
                             <img
-                              src="/src/assets/images/user_portrait_1779432560781.png"
+                              src={userImgImage}
                               alt="King Chukwuebuka"
                               referrerPolicy="no-referrer"
                               className="w-full h-full object-cover brightness-100 contrast-105"
@@ -790,7 +797,7 @@ export default function App() {
                                 className="absolute inset-0 rounded-xl overflow-hidden border border-emerald-500/30 shadow-lg shadow-emerald-500/5 bg-gray-950 flex flex-col justify-between"
                               >
                                 <img
-                                  src="/src/assets/images/joker_batman_1779433400114.png"
+                                  src={jokerImage}
                                   alt="Joker Card Illustration"
                                   referrerPolicy="no-referrer"
                                   className="w-full h-full object-cover brightness-95 saturate-80"
@@ -832,7 +839,7 @@ export default function App() {
                                 className="absolute inset-0 rounded-xl overflow-hidden border border-indigo-500/30 shadow-lg shadow-indigo-500/5 bg-gray-950 flex flex-col justify-between"
                               >
                                 <img
-                                  src="/src/assets/images/gambit_xmen_card_1779433658726.png"
+                                  src={gambitImage}
                                   alt="Gambit Ace of Spades"
                                   referrerPolicy="no-referrer"
                                   className="w-full h-full object-cover brightness-95 saturate-100"
@@ -874,7 +881,7 @@ export default function App() {
                                 className="absolute inset-0 rounded-xl overflow-hidden border border-rose-500/30 shadow-lg shadow-rose-500/5 bg-gray-950 flex flex-col justify-between"
                               >
                                 <img
-                                  src="/src/assets/images/dark_anime_love_1779435344913.png"
+                                  src={darkAnimeImage}
                                   alt="Dark Theme Love Character"
                                   referrerPolicy="no-referrer"
                                   className="w-full h-full object-cover brightness-95 saturate-100"

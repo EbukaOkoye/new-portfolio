@@ -3,7 +3,7 @@ import { PortfolioMeta, Project, ExperienceItem, SkillCategory } from './types';
 export const portfolioMeta: PortfolioMeta = {
   fullName: 'Chukwuebuka Ifenna Okoye',
   title: 'Frontend Developer',
-  location: 'London, UK / Remote',
+  location: 'Lagos, Nigeria / Remote',
   bio: 'Engineering highly tactile tactile interactive web experiences, state-of-the-art LLM-backed dashboards, and performant backend architectures.',
   subBio: 'I specialize in refining code visualizers, responsive browser environments, and micro-interaction design. Drawing from rich systems and web architectures, I bridge premium aesthetic details with high-efficiency computation.',
   stats: [

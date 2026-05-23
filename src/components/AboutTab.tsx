@@ -126,7 +126,7 @@ export default function AboutTab({ meta }: AboutTabProps) {
           <h3 className="text-xl font-semibold font-display text-white">Identity Dossier</h3>
         </div>
         <div className="flex items-center gap-1.5 text-xs font-mono text-rose-400">
-          <MapPin className="w-3.5 h-3.5" /> London, UK / Remote
+          <MapPin className="w-3.5 h-3.5" /> Lagos, Nigeria / Remote
         </div>
       </div>
 
@@ -247,7 +247,7 @@ export default function AboutTab({ meta }: AboutTabProps) {
                   {currentCh.id === 'identity' && (
                     <div className="relative shrink-0 w-20 h-24 rounded-lg overflow-hidden border border-amber-500/30 bg-gray-950/60 shadow-lg">
                       <img
-                        src="/src/assets/images/user_portrait_1779432560781.png"
+                        src="/src/assets/images/user-img.png"
                         alt="Chukwuebuka Ifenna Okoye portrait visual"
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover pointer-events-none"
