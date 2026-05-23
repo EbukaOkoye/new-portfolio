@@ -32,6 +32,7 @@ import userPortraitImage from './assets/images/user_portrait_1779432560781.png';
 import madaraImage from './assets/images/madara_susanoo_1779435610767.png';
 import userImgImage from './assets/images/user-img.png';
 import gambitImage from './assets/images/gambit_xmen_card_1779433658726.png';
+import casinoImage from './assets/images/four_kings_deck_1779542876898.png'
 
 
 type PlayingCardId = 'joker' | 'spade' | 'love' | 'king';
@@ -377,7 +378,7 @@ export default function App() {
           
           {/* Base Casino Image */}
           <img
-            src=""
+            src={casinoImage}
             alt="The Prestige Lounge Casino"
             referrerPolicy="no-referrer"
             className={`absolute inset-0 w-full h-full object-cover brightness-75 contrast-110 saturate-[0.85] transition-all duration-1000 ease-in-out ${
